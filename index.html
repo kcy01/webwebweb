@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="ko">
+<!--해당 소스 및 사이트는 학교 수업 과제를 위해 제작된 것으로 어떠한 상업적 의도도 가지고 있지 않습니다.-->
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>agingym</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="style.css">  
+    
+        <!--구글 폰트-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Gothic:wght@400;700&family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
+    </head>
+
+<body>
+    
+    <!--네비게이션 영역 시작-->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <div class="container">
+
+            <a class="gugi-font navbar-brand" href="index.html">
+                <h3> <img src="logo88.png" width="50" height="50" alt="로고">AGINGYM</h3>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu"
+                aria-controls="nav-menu" aria-expanded="false" aria-label="메뉴">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="nav-menu">
+                <ul class="navbar-nav ms-auto my-2">
+                    <li class="nav-item"><a class="nav-link" href="index.html">홈</a></li>
+                    <li class="nav-item"><a class="nav-link" href="weight.html">적정 체중 유지방안</a></li>
+                    <li class="nav-item"><a class="nav-link" href="exercise.html">추천 운동</a></li>
+                    <li class="nav-item"><a class="nav-link" href="location.html">오시는 길</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">온라인 PT 문의</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--네비게이션 영역 끝-->
+
+    <!--헤더 영역 시작-->
+    <header id="home" class="d-flex flex-column justify-content-center align-items-center vh-100 text-white">
+
+        <!--회전목마 시작-->
+        <div id="carousel" class="carousel slide carousel-fade w-auto py-5">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="crossfit.jpg" class="d-block w-auto" alt="크로스핏">
+              </div>
+              <div class="carousel-item">
+                <img src="womanyoga.jpg" class="d-block w-auto" alt="요가">
+              </div>
+              <div class="carousel-item">
+                <img src="skateboard.jpg" class="d-block w-auto" alt="스케이트보드">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!--회전목마 끝-->
+
+    </header>
+    <!--헤더 영역 끝-->
+
+    <!--agingym 필요성 시작 -->
+    <section class="container py-5">
+        <div class="text-center py-5">
+            <h2 class="fw-bold">AGINGYM 필요성</h2>
+            <p class="lead text-muted">연령별로 다른 운동의 필요성</p>
+        </div>
+
+        <div class="row justify-content-center align-items-center mb-5">
+            <div class="col-md-5">
+                <img src="free-climbing.jpg" alt="운동 필요성" class="img-fluid">
+            </div>
+            <div class="col-md-7 col-lg-5 px-lg-5">
+                <h4 class="fw-bold mb-3">청소년기</h4>
+                <p class="lh-lg">
+                    이 시기는 일생에 있어서 성장이 가장 왕성한 시기이자 신체적 또는 체력적으로 완성되는 단계입다. 
+                    청소년기의 높은 체력 수준은 성인이 되었을 때 삶을 지탱해주는 활력소이자 건강의 근간이 될 수 있으므로 
+                    <strong>청소년기에 최대한 체력을 향상시켜 놓을 필요</strong>가 있습니다.
+                </p>
+                <h4 class="fw-bold mb-3">청장년기</h4>
+                <p class="lh-lg">
+                성인기의 체력은 주변 환경의 변화에서 오는 각종 스트레스를 견뎌내는 방위체력과 운동을 일으키고 지속시키며 조절할 수 있는 행동체력으로 구성된다.
+                건강관련체력에는 근력·심폐지구력·근지구력·유연성이 포함되며, 운동관련체력에는 순발력·민첩성평형성·교치성·협융성·스피드가 포함됩니다. 
+                그 중 <strong>근력, 순발력, 근지구력, 심폐지구력은 매우 가역적인 특성이 있는 에너지 체력 요소들로,</strong>규칙적인 운동에 의해 쉽게 향상되기도 하지만 
+                운동을 중지하면 단기간에 소멸되고 마는 특성이 있습니다.
+                </p>
+                <h4 class="fw-bold mb-3">노년기</h4>
+                <p class="lh-lg">
+                만 65세 이상 노인에게는 근력·근지구력·심폐지구력·유연성과 더불어 평형성·협응력의 체력 요인이 요구됩니다. 
+                <strong>이와 같은 체력이 건강을 유지하거나 향상시키는데 도움이 될 뿐만 아니라 일상생활을 수행하는데 필수적이기 때문입니다.</strong>
+                </p>
+            </div>
+        </div>    
+    </section>
+    <!-- agingym 필요성 끝 -->
+
+    <!-- 트레이너 소개 시작 -->
+    <section class="container overflow-hidden py-5" id="trainer">
+        <div class="text-center py-5">
+            <h2 class="fw-bold mb-3">AGINGYM의 특별한 트레이너 소개</h2>
+            <p class="lead text-muted">성별, 연령, 체형에 상관없이 건강한 신체/정신을 만들기 위해 도와줄 특별한 트레이너를 소개합니다.</p>
+        </div>
+
+        <div class="row mb-5 g-4">
+            <div class="col-md-6">
+                <div class="card-hover shadow rounded p-4">
+                    <div class="d-flex align-items-center py-3">
+                        <img src="trainer1.png" width="150" height="150" alt="트레이너1" class="rounded-circle">
+                        <div class="ms-3">
+                            <h3 class="fw-bold">트레이너 '박기우'</h3>
+                        </div>
+                    </div>
+                    <p>안녕하세요. 트레이너 박기우입니다. <br>
+                    저는 10년간 헬스 트레이너로 활동하면서 운동에 여러 고민을 가진 회원분을 만났습니다.  
+                    친구 같은 트레이너가 되도록 노력하겠습니다. 
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card-hover shadow rounded p-4">
+                    <div class="d-flex justify-content-end align-items-center py-3">
+                        <div class="text-end me-3">
+                            <h3 class="fw-bold"> 트레이너 '심선영'</h3>
+                        </div>
+                        <img src="trainer2.png" width="150" height="150" alt="트레이너2" class="rounded-circle">
+                    </div>
+                    <p class="text-end">안녕하세요! 트레이너 심선영입니다. <br>
+                    저는 7년간 헬스 트레이너로 일해왔습니다. 몸과 마음이 모두 건강하게 운동하는 법을 알려드리도록 하겠습니다!! 
+                    다들 저만 믿고 따라와주세요.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card-hover shadow rounded p-4">
+                    <div class="d-flex align-items-center py-3">
+                        <img src="trainer3.png" width="150" height="150" alt="트레이너3" class="rounded-circle">
+                        <div class="ms-3">
+                            <h3 class="fw-bold">트레이너 '신민수'</h3>
+                        </div>
+                    </div>
+                    <p>안녕하세요! 트레이너 신민수입니다. <br>
+                    저는 체육학과를 졸업하고 헬스 트레이너로 일하면서 청소년과 함께 다양한 운동을 해왔습니다. 
+                    성장기에 맞는 재미있는 운동을 알려드리겠습니다.  
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card-hover shadow rounded p-4">
+                    <div class="d-flex justify-content-end align-items-center py-3">
+                        <div class="text-end me-3">
+                            <h3 class="fw-bold">트레이너 '이경희'</h3>
+                        </div>
+                        <img src="trainer4.png" width="150" height="150" alt="트레이너4" class="rounded-circle">
+                    </div>
+                    <p class="text-end">안녕하세요! 트레이너 이경희입니다. <br>
+                    저는 6년간 여성 대상 헬스 트레이너로 일해왔습니다. 굶지 않고, <br> 건강하게 다이어트하는 법을 알려드리겠습니다. 
+                    잘 부탁드립니다. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 트레이너 소개 끝 -->
+
+    <!-- 풋터 시작 -->
+    <footer class="bg-dark text-white">
+        <div class="container text-center">
+            <h4 class="py-4 mb-0"> AGINGYM </h4>
+        </div>
+    </footer>
+    <!-- 풋터 끝 -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>  
+</body>
+</html>
